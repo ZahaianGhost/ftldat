@@ -169,13 +169,13 @@ Function un.RemoveFromPath
     Pop $0
 FunctionEnd
  
- 
+/*The following functions proved vestigial chunks from where Bas appears to have copypastaed this header file to use with the main script file. They just prove mildly confusing if you're not accustomed to compiling installers on your own and think maybe something went wrong here, so I've commented them out for the less tech savvy users. If they prove necessary somehow on your setup, feel free to uncomment them out and reinsert them, they shouldn't cause any issue as far as I'm aware.-ZahaianGhost.*/
  
 ; AddToEnvVar - Adds the given value to the given environment var
 ;        Input - head of the stack $0 environement variable $1=value to add
 ;        Note - Win9x systems requires reboot
  
-Function AddToEnvVar
+/*Function AddToEnvVar
  
   Exch $1 ; $1 has environment variable value
   Exch
@@ -234,12 +234,12 @@ Function AddToEnvVar
     Pop $0
     Pop $1
  
-FunctionEnd
+FunctionEnd*/
  
 ; RemoveFromEnvVar - Remove a given value from a environment var
 ;     Input: head of the stack
  
-Function un.RemoveFromEnvVar
+/*Function un.RemoveFromEnvVar
  
   Exch $1 ; $1 has environment variable value
   Exch
@@ -331,7 +331,7 @@ Function un.RemoveFromEnvVar
     Pop $2
     Pop $1
     Pop $0
-FunctionEnd
+FunctionEnd*/
  
  
  
