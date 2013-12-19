@@ -18,5 +18,5 @@ coll = COLLECT(exe,
                a.datas,
                strip=None,
                upx=True,
-               name=os.path.join('dist'))
+               name=os.path.join(''))
 # vim: ft=python:et:bs=2:sw=4:ts=4
