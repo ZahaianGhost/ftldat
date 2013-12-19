@@ -8,6 +8,10 @@ Installation
 ------------
 ###Windows
 Download the installer, here: http://westerbaan.name/~bas/ftldat/ftldat-latest.exe
+Or here: https://docs.google.com/file/d/0B8XGqfa3TH2sdmRweXVqVld1c0E/
+
+I have also tried recompiling the installer using the developer version of PyInstaller to attempt to circumvent virus false-positives, you may try that version of the installer here:
+https://docs.google.com/file/d/0B8XGqfa3TH2saW5GRHNvOGZxQU0/
 
 ###Linux and Mac OS X
 Simply execute
